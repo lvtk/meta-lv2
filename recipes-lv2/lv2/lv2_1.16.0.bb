@@ -13,5 +13,6 @@ S = "${WORKDIR}/git"
 inherit waf
 
 do_install() {
-    rm -rf "${D}/usr/share/lv2specgen"
+    ./waf install --destdir="${D}"
+    rm -rf "${D}/${prefix}/lv2specgen"
 }
