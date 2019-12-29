@@ -6,7 +6,7 @@ DEPENDS = "serd sord sratom"
 LICENSE = "ISC"
 LIC_FILES_CHKSUM = "file://COPYING;md5=0383f162366b0c5a316292759a55d292"
 
-SRCREV = "v0.24.6"
+SRCREV = "d1c9d1b6f1df03c4ee49eac544e3f6771e03fdcb"
 SRC_URI = "git://github.com/drobilla/lilv.git"
 S = "${WORKDIR}/git"
 
